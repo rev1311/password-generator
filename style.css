@@ -59,3 +59,21 @@ hr {
     margin: 15px;
     float: right;
 }
+
+#slider {
+    width: 100%;
+}
+
+#slider::-webkit-slider-thumb {
+    appearance: none;
+}
+
+
+p {
+    display: inline-flex;
+}
+
+#slidercount {
+    display: inline-block;
+    
+} 
