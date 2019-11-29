@@ -14,24 +14,24 @@
         
         <header>
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12"><h1>Password Generator</h1></div>    
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8"><h1>Password Generator</h1></div>    
             </div>
         </header>
 
         <section>
             <div class="row">
-                <div class="col-12 col-lg-12 box">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8 box">
                     <div class="row">
-                        <div class="col-12 col-lg-12">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                             <h2>Generate a Password</h2>
                             <hr>
-                            <textarea id="display">displays random password</textarea>
+                            <textarea readonly aria-label="Generated Password" placeholder="Your Secure Password" id="display"></textarea>
                             <hr>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-lg-6"> <button id="genbtn">Generate Password Button</button>  </div>
-                        <div class="col-12 col-lg-6"> <button id="clpbtn">Copy to Clipboard Button</button>  </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6"> <button id="genbtn" onclick="">Generate Password</button>  </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6"> <button id="clpbtn" onclick="">Copy to Clipboard</button>  </div>
                     </div>
                 </div>
             </div>
