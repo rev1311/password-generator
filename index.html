@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Password Generator</title>
 </head>
 
@@ -29,22 +29,53 @@
                             <hr>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-6 col-sm-6 col-md-6 col-lg-6"> <button id="genbtn" onclick="generate()">Generate Password</button>  </div>
-                        <div class="col-6 col-sm-6 col-md-6 col-lg-6"> <button id="clpbtn" onclick="copyClipboard()">Copy to Clipboard</button>  </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12"> 
-                            <h3>Criteria</h3>
-                            <p>Number of Characters:</p>
-                            <div id="slidercount"><strong>_</strong></div>
-                            <input type="range" min="8" max="128" value="8" id="slider"></div>
-                    </div>
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                    <button id="genbtn">Generate Password</button>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                    <button id="clpbtn" onclick="copyClipboard()">Copy to Clipboard</button>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6"> 
+                    <h3>Criteria</h3>
+                    <p>Number of Characters:</p>
+                    <div id="slidercount"><strong>_</strong></div>
+                </div>
+
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6 fpo">
+                    <input type="range" min="8" max="128" value="8" id="slider">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6 col-sm-3 col-md-3 col-lg-3 includes mx-auto">
+                    <label for="uppercase">Uppercase</label>
+                    <input type="checkbox" id="uppercase" checked />
+                </div>
+
+                <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+                    <label for="lowercase">Lowercase</label>
+                    <input type="checkbox" id="lowercase" checked />
+                </div>
+
+                <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+                    <label for="numbers">Numbers</label>
+                    <input type="checkbox" id="numbers" checked />
+                </div>
+                
+                <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+                    <label for="symbols">Symbols</label>
+                    <input type="checkbox" id="symbols" checked />
+                </div>
+            </div>
+        </div>
+    </div>
         </section>
     
     </div>
-    <script src="script.js"></script>
+    <script src="assets/javascript/script.js"></script>
 </body>
 </html>
