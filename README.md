@@ -1,9 +1,10 @@
 # Random Password Generator
-A random password generator that takes user inputs to create passwords of varying complexity, utilizing bootstrap to make responsive at different viewports (640px, 768px, 980px).
+A random password generator that takes user inputs to create passwords of varying complexity, utilizing bootstrap to make responsive at different viewports (640px, 768px, 980px) and Javascript to power functionality.
 
 ## Screen Grab (768px)
 
-![Screenshot @ 768px](assets/images/passGen_ss.png)
+![site](assets/images/passgen_gif.gif)
+GIF of application in action. Displaying various options and functionality.
 
 ## Built With
 
@@ -12,8 +13,8 @@ A random password generator that takes user inputs to create passwords of varyin
 * [Bootstrap](https://getbootstrap.com)
 * [JavaScript](https://javascript.com)
 
-![Code Snippet from Script.js](assets/images/codeSnippet.png)
-Found a clean way to randomize the different character sets using the browser charset codes
+![site](assets/images/codeSnippet.PNG)
+Code snippet of randomizing the different character sets using the browser charset codes
 
 ## Deployed Link
 
@@ -24,9 +25,9 @@ Found a clean way to randomize the different character sets using the browser ch
 
 * **Michael Partin** 
 
-- [Link to Portfolio Site](https://rev1311.github.io/responsive-portfolio/)
+- [Link to Portfolio Site](https://rev1311.github.io/updated-portfolio/)
 - [Link to Github](https://github.com/rev1311)
-- [Link to LinkedIn](https://linkedin.com/in/michael-partin-49ba1081)
+- [Link to LinkedIn](https://linkedin.com/in/michael-partin)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project. HINT: Just me.
 
